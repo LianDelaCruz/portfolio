@@ -1,3 +1,3 @@
 document.getElementById("main-button").addEventListener("click", function() {
-    alert("Button clicked");
+    window.location.href = "main.html";
 });
