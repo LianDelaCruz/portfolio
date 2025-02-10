@@ -3,18 +3,51 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script> 
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
     <title>Portfolio</title>
   </head>
   <body>
     <main class="main-container">
-      <header>
-        <button class="glowing-button" id="main-button"><h1>Press me!</h1></button>
-      </header>
+      <nav role="navigation" aria-label="Main-Navigation">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <div id="sections-container">
+        <section id="developer-section">
+          <h1>Hi, I'm Lian</h1>
+          <p>
+            As a web developer, I specialize in crafting intuitive and
+            responsive user experiences. With a strong foundation in modern web
+            technologies, I build scalable and efficient solutions that
+            seamlessly blend functionality with performance. My passion for
+            coding drives me to stay updated with industry trends, ensuring that
+            the websites and applications I develop meet the highest standards.
+            Let's build something great together.
+          </p>
+          <button>View my work</button>
+        </section>
+        <section id="designer-section">
+          <h1>But wait, there's more!</h1>
+          <p>
+            Welcome to my creative playground! 🎨✨ I turn ideas into
+            eye-catching, scroll-stopping, "OMG, that looks amazing!" designs.
+            Whether it's sleek interfaces, bold color palettes, or quirky
+            animations, I love bringing personality into every pixel. If you’re
+            into designs that not only look good but also feel just right—stick
+            around, we’re about to make something awesome!
+          </p>
+          <button>View my work</button>
+        </section>
+      </div>
     </main>
     <footer>
-        <p>created by: Lian DC</p>
+      <p>created by: Lian DC</p>
     </footer>
   </body>
 </html>
